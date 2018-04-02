@@ -24,7 +24,7 @@ function draw()
 
   if(x==50)
   {
-    flag=true;
+    flag=false;
   }
 
 }
