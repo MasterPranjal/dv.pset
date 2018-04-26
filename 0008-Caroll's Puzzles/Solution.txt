@@ -1,0 +1,49 @@
+Solution to LWSC1
+a)
+B: my saucepans
+T: made of tin
+P: Presents
+U: Useful
+B->T
+P->U
+B->~U
+therefore: U->~B
+If it is useful, it is not my saucepans
+
+b)
+W: Writer/port
+U: understand human nature
+C: clever
+M: Stir the hearts of Men
+S: Shakespeare
+H: Hamlet
+
+W->U->C
+~W->~M
+S->H
+~W->~U->~M
+W->H
+
+therefore:
+W->S = All writers are Shakespeare
+W->M->U->C = All writers who can stir the hearts of men and can understand human nature are clever.
+
+c)
+D: it is despise
+B: it is bridge
+W: it is worth writing an ode to
+G: it is a gift
+R: it is rainbow
+WH: weight of a wheelbarrow
+
+D->~B
+W->G
+R->~WH
+B->WH
+D->~G
+
+therefore:
+D->~WH
+D->R
+D->~W
+R->~W = If it is a rainbow, then it is not worth writing an ode to.
