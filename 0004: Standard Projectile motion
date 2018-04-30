@@ -1,0 +1,6 @@
+Total Height = ((u^2)sin(theta))/2g
+Total time = (2usin(theta))/g
+vy = usin(theta)
+vx= ucos(theta)
+x = ucos(theta)t
+y = usin(theta).t - 0.5g(t^2)
