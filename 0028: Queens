@@ -1,0 +1,19 @@
+Given an 8x8 chess board, what is the is the minimum number of queens needed to attack or occupy every square?
+_ _ _ _ _ _ x _
+_ x _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ x _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ x
+_ _ x _ _ _ _ _
+_ _ _ _ _ _ _ _
+
+
+_ _ _ _ _ _ x _
+_ _ x _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ x
+_ _ _ x _ _ _ _
+_ _ _ _ _ _ _ _
+x _ _ _ _ _ _ _
