@@ -1,0 +1,26 @@
+1 Bit – Half Adder
+Gates used: XOR & AND
+Truth Table 
+A  B  S  C 
+0  0  0  0
+0  1  1  0
+1  0  1  0
+1  1  0  1
+
+1 Bit - Full Adder
+2 Half Adders & OR Gate
+A  B  Cin  Sum  Cout 
+0  0   0    0    0
+0  0   1    1    0
+0  1   0    1    0
+0  1   1    0    1
+1  0   0    1    0
+1  0   1    0    1
+1  1   0    0    1
+1  1   1    1    1
+
+4 Bit Full Adder 
+A = A1 A2 A3 A4
+B = B1 B2 B3 B4
+S = S1 S2 S3 S4
+Cout = C1 C2 C3 C4 
