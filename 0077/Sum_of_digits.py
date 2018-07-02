@@ -2,11 +2,9 @@
 
 number = int(input("Kindly enter the any number: "))
 
-sum = 0
-
 def Sum_of_digits(number):
-    global sum
-    if (number>0):
+    sum = 0
+    while(number>0):
         remainder = number % 10
         sum += remainder
         number = number // 10
