@@ -1,12 +1,19 @@
-x = int(input("Please enter number which you want to reverse: "))
+#Practicing to reversing a number 
 
-reverse = 0;
+actual_num = int(input("Please enter number which you want to reverse = "))
 
-def reverseNumber(x):
-    while(x>0):
-        remainder = x%10
-        reverse = (reverse*10)+remainder
-        x = x//10
+global reverse
 
-        print("Reverse of the entered number is = " reverse)
+def reverseNumber(actual_num):
+    reverse=0
+    while(actual_num > 0):
+        remainder = actual_num % 10
+        reverse = (reverse*10) + remainder
+        actual_num = actual_num // 10
+
+    print("Reverse of the entered number is = ", reverse)
+
+reverseNumber(actual_num)
+
+
         
